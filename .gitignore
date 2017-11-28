@@ -1,0 +1,7 @@
+/*.db
+/*.log
+/.HA_VERSION
+/.uuid
+/deps
+/secrets.yaml
+/tts
