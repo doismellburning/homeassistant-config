@@ -63,6 +63,23 @@ sensor:
 tts:
   - platform: google
 
+switch:
+  -
+    platform: tplink
+    host: 192.168.87.161
+  -
+    platform: tplink
+    host: 192.168.87.172
+  -
+    platform: tplink
+    host: 192.168.87.174
+  -
+    platform: tplink
+    host: 192.168.87.175
+  -
+    platform: tplink
+    host: 192.168.87.176
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
