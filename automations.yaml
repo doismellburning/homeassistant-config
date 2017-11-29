@@ -1,1 +1,10 @@
-[]
+-
+  alias: SleepTime
+  trigger:
+    platform: state
+    entity_id: input_boolean.sleep_time
+    to: 'on'
+  action:
+    service: switch.turn_off
+    data:
+      entity_id: group.all_switches
