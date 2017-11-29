@@ -77,12 +77,6 @@ switch:
     platform: tplink
     host: 192.168.87.176
 
-input_boolean:
-  sleep_time:
-      name: Sleep Time
-      initial: off
-      icon: mdi:hotel
-
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml

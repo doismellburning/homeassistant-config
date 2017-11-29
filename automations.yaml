@@ -1,9 +1,8 @@
 -
   alias: SleepTime
   trigger:
-    platform: state
-    entity_id: input_boolean.sleep_time
-    to: 'on'
+    platform: event
+    event_type: button.sleep_time
   action:
     service: switch.turn_off
     data:
