@@ -76,6 +76,9 @@ switch:
   -
     platform: tplink
     host: 192.168.87.176
+  -
+    platform: tplink
+    host: 192.168.87.177
 
 group: !include groups.yaml
 automation: !include automations.yaml
