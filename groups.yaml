@@ -1,0 +1,16 @@
+living_room_lights:
+  name: "Living Room Lights"
+  entities:
+    - switch.living_room_back_lamp
+    - switch.living_room_mantelpiece_lamp
+    - switch.living_room_uplighter
+
+all_lights:
+  name: "All Lights"
+  entities:
+    - switch.conservatory_lamp
+    - switch.daystar
+    - switch.front_lamp
+    - switch.living_room_back_lamp
+    - switch.living_room_mantelpiece_lamp
+    - switch.living_room_uplighter
