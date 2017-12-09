@@ -1,14 +1,4 @@
 -
-  alias: SleepTime
-  trigger:
-    platform: event
-    event_type: button.sleep_time
-  action:
-    service: switch.turn_off
-    data:
-      entity_id: group.all_switches
-
--
   alias: 'Lights on for when Ceri gets home'
   trigger:
     platform: time
