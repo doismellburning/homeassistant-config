@@ -20,3 +20,25 @@
   action:
     service: switch.turn_on
     entity_id: group.living_room_lights
+
+-
+  alias: 'Morning Daystar on'
+  trigger:
+    platform: time
+    at: '09:00:00'
+  condition:
+    condition: state
+    entity_id: 'binary_sensor.workday_sensor'
+    state: 'on'
+  action:
+    service: switch.turn_on
+    entity_id: switch.daystar
+
+-
+  alias: 'Afternoon Daystar off'
+  trigger:
+    platform: time
+    at: '13:00:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.daystar
