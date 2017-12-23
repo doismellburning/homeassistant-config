@@ -14,7 +14,7 @@ idna==2.6
 Jinja2==2.10
 MarkupSafe==1.0
 multidict==3.3.2
-mutagen==1.38
+mutagen==1.39
 netdisco==1.2.3
 netifaces==0.10.6
 protobuf==3.5.0.post1
