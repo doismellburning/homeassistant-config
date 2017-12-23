@@ -63,22 +63,22 @@ tts:
 switch:
   -
     platform: tplink
-    host: 192.168.87.161
+    host: 192.168.87.210
   -
     platform: tplink
-    host: 192.168.87.172
+    host: 192.168.87.211
   -
     platform: tplink
-    host: 192.168.87.174
+    host: 192.168.87.212
   -
     platform: tplink
-    host: 192.168.87.175
+    host: 192.168.87.213
   -
     platform: tplink
-    host: 192.168.87.176
+    host: 192.168.87.214
   -
     platform: tplink
-    host: 192.168.87.177
+    host: 192.168.87.215
 
 binary_sensor:
   -
