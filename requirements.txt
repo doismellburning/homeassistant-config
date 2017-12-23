@@ -9,7 +9,7 @@ enum-compat==0.0.2
 fuzzywuzzy==0.15.1
 gTTS-token==1.1.1
 home-assistant-frontend==20171121.0
-homeassistant==0.58.1
+homeassistant==0.60.0
 idna==2.6
 Jinja2==2.10
 MarkupSafe==1.0
