@@ -4,7 +4,7 @@ astral==1.4
 async-timeout==2.0.0
 certifi==2017.11.5
 chardet==3.0.4
-distro==1.0.4
+distro==1.1.0
 enum-compat==0.0.2
 fuzzywuzzy==0.15.1
 gTTS-token==1.1.1
