@@ -80,6 +80,11 @@ switch:
     platform: tplink
     host: 192.168.87.177
 
+binary_sensor:
+  -
+    platform: workday
+    country: UK
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
