@@ -18,7 +18,7 @@ mutagen==1.39
 netdisco==1.2.3
 netifaces==0.10.6
 protobuf==3.5.0.post1
-PyChromecast==0.8.2
+PyChromecast==1.0.3
 pytz==2017.3
 PyYAML==3.12
 requests==2.18.4
