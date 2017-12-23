@@ -79,6 +79,12 @@ switch:
   -
     platform: tplink
     host: 192.168.87.215
+  -
+    platform: tplink
+    host: 192.168.87.216
+  -
+    platform: tplink
+    host: 192.168.87.217
 
 binary_sensor:
   -
