@@ -96,3 +96,11 @@ binary_sensor:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+notify:
+  -
+    name: Slack
+    platform: slack
+    api_key: !secret slack_api_key
+    default_channel: !secret slack_channel
+    username: "Home Assistant"

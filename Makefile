@@ -7,3 +7,5 @@ test: secrets.yaml
 secrets.yaml: Makefile
 	echo "latitude: 1" >> secrets.yaml
 	echo "longitude: 1" >> secrets.yaml
+	echo "slack_api_key: 1" >> secrets.yaml
+	echo "slack_channel: 1" >> secrets.yaml
