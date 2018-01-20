@@ -8,7 +8,7 @@ distro==1.2.0
 enum-compat==0.0.2
 fuzzywuzzy==0.16.0
 gTTS-token==1.1.1
-home-assistant-frontend==20180102.0
+home-assistant-frontend==20180112.0
 homeassistant==0.60.1
 idna==2.6
 Jinja2==2.10
