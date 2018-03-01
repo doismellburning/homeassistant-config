@@ -26,7 +26,7 @@ six==1.11.0
 SQLAlchemy==1.2.4
 typing==3.6.4
 urllib3==1.22
-voluptuous==0.10.5
+voluptuous==0.11.1
 xmltodict==0.11.0
 yarl==1.1.1
 zeroconf==0.20.0
