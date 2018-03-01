@@ -19,7 +19,7 @@ netdisco==1.2.4
 netifaces==0.10.6
 protobuf==3.5.1
 PyChromecast==2.0.0
-pytz==2017.3
+pytz==2018.3
 PyYAML==3.12
 requests==2.18.4
 six==1.11.0
