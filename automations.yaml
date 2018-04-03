@@ -75,3 +75,28 @@
     service: notify.slack
     data_template:
       message: "Motion detected: {{ trigger.event.data.get('hostname', 'Device unknown') }}"
+
+-
+  alias: "Away mode: Lights on before sunset"
+  trigger:
+    platform: sun
+    event: sunset
+    offset: '-01:00:00'
+  condition:
+    condition: state
+    entity_id: input_boolean.away_mode
+    state: 'on'
+  action:
+    - service: script.gradual_lights_on
+
+-
+  alias: "Away mode: Lights off at night"
+  trigger:
+    platform: time
+    at: '23:32:23'
+  condition:
+    condition: state
+    entity_id: input_boolean.away_mode
+    state: 'on'
+  action:
+    - service: script.gradual_lights_off

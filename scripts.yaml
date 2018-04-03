@@ -4,3 +4,52 @@ sleep_time:
       service: switch.turn_off
       data:
         entity_id: group.all_switches
+
+gradual_lights_on:
+  sequence:
+    -
+      service: switch.turn_on
+      data:
+        entity_id: group.living_room_lights
+    -
+      delay:
+        minutes: 5
+    -
+      service: switch.turn_on
+      data:
+        entity_id: switch.conservatory_lamp
+    -
+      delay:
+        minutes: 5
+    -
+      service: switch.turn_on
+      data:
+        entity_id: switch.front_lamp
+
+gradual_lights_off:
+  sequence:
+    -
+      service: switch.turn_off
+      data:
+        entity_id: group.living_room_lights
+    -
+      delay:
+        minutes: 5
+    -
+      service: switch.turn_off
+      data:
+        entity_id: switch.conservatory_lamp
+    -
+      delay:
+        minutes: 5
+    -
+      service: switch.turn_off
+      data:
+        entity_id: switch.front_lamp
+    -
+      delay:
+        minutes: 5
+    -
+      service: switch.turn_off
+      data:
+        entity_id: group.all_switches
