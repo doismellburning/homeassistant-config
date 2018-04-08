@@ -109,3 +109,11 @@ notify:
     api_key: !secret slack_api_key
     default_channel: !secret slack_channel
     username: "Home Assistant"
+
+panel_iframe:
+  nox:
+    title: Nox
+    url: http://nox.local/live
+  porta:
+    title: Porta
+    url: http://porta.local/live
