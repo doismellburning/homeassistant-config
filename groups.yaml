@@ -10,6 +10,8 @@ all_lights:
   entities:
     - switch.conservatory_lamp
     - switch.daystar
+    - switch.desk_lamp_left
+    - switch.desk_lamp_right
     - switch.front_lamp
     - switch.living_room_back_lamp
     - switch.living_room_mantelpiece_lamp
