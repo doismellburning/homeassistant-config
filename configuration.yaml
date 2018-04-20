@@ -120,3 +120,10 @@ panel_iframe:
   porta:
     title: Porta
     url: http://porta.local/live
+
+sensor:
+  -
+    platform: london_underground
+    line:
+      - Jubilee
+      - Northern
