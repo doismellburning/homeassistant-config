@@ -9,3 +9,5 @@ secrets.yaml: Makefile
 	echo "longitude: 1" >> secrets.yaml
 	echo "slack_api_key: 1" >> secrets.yaml
 	echo "slack_channel: 1" >> secrets.yaml
+	echo "transportapi_app_id: 1" >> secrets.yaml
+	echo "transportapi_app_key: 1" >> secrets.yaml

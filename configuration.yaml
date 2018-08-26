@@ -127,3 +127,16 @@ sensor:
     line:
       - Jubilee
       - Northern
+  -
+    platform: uk_transport
+    app_id: !secret transportapi_app_id
+    app_key: !secret transportapi_app_key
+    queries:
+      -
+        mode: train
+        origin: BIW
+        destination: STP
+      -
+        mode: train
+        origin: BIW
+        destination: KGX
