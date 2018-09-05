@@ -140,3 +140,6 @@ sensor:
         mode: train
         origin: BIW
         destination: KGX
+
+zwave:
+  usb_path: /dev/zwave
