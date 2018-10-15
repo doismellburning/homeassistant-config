@@ -11,3 +11,4 @@ secrets.yaml: Makefile
 	echo "slack_channel: 1" >> secrets.yaml
 	echo "transportapi_app_id: 1" >> secrets.yaml
 	echo "transportapi_app_key: 1" >> secrets.yaml
+	echo "zwave_network_key: 1" >> secrets.yaml
