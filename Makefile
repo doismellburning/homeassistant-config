@@ -5,6 +5,7 @@ test: secrets.yaml
 # Depends on Makefile so if it's edited locally, the testing one should be updated
 # Appends so as not to be destructive if actually run on a secrets file you care about
 secrets.yaml: Makefile
+	echo "http_password: notsecret" >> secrets.yaml
 	echo "latitude: 1" >> secrets.yaml
 	echo "longitude: 1" >> secrets.yaml
 	echo "slack_api_key: 1" >> secrets.yaml
