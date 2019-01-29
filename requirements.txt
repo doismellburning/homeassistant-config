@@ -1,1 +1,1 @@
-homeassistant==0.86.3
+homeassistant==0.86.4
