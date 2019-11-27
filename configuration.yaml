@@ -70,40 +70,20 @@ input_boolean:
     name: Away Mode
     initial: on
 
-switch:
-  -
-    platform: tplink
-    host: 192.168.87.210
-  -
-    platform: tplink
-    host: 192.168.87.211
-  -
-    platform: tplink
-    host: 192.168.87.212
-  -
-    platform: tplink
-    host: 192.168.87.213
-  -
-    platform: tplink
-    host: 192.168.87.214
-  -
-    platform: tplink
-    host: 192.168.87.215
-  -
-    platform: tplink
-    host: 192.168.87.216
-  -
-    platform: tplink
-    host: 192.168.87.217
-  -
-    platform: tplink
-    host: 192.168.87.218
-  -
-    platform: tplink
-    host: 192.168.87.219
-  -
-    platform: tplink
-    host: 192.168.87.220
+tplink:
+  discovery: true
+  switch:
+    - host: 192.168.87.210
+    - host: 192.168.87.211
+    - host: 192.168.87.212
+    - host: 192.168.87.213
+    - host: 192.168.87.214
+    - host: 192.168.87.215
+    - host: 192.168.87.216
+    - host: 192.168.87.217
+    - host: 192.168.87.218
+    - host: 192.168.87.219
+    - host: 192.168.87.220
 
 binary_sensor:
   -
