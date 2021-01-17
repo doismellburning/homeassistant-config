@@ -109,9 +109,6 @@ panel_iframe:
     url: http://porta.local/live
 
 sensor:
-  # Weather prediction
-  - platform: yr
-
   -
     platform: london_underground
     line:
