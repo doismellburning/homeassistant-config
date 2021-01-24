@@ -3,7 +3,7 @@ sleep_time:
     -
       service: switch.turn_off
       data:
-        entity_id: group.all_switches
+        entity_id: group.all_lights
 
 gradual_lights_on:
   sequence:
@@ -52,4 +52,4 @@ gradual_lights_off:
     -
       service: switch.turn_off
       data:
-        entity_id: group.all_switches
+        entity_id: group.all_lights
