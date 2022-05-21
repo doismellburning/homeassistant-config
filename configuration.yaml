@@ -78,7 +78,7 @@ tplink:
 binary_sensor:
   -
     platform: workday
-    country: UK
+    country: GB
 
 group: !include groups.yaml
 automation: !include automations.yaml
