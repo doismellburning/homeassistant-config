@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Make secrets
+      run: make secrets.yaml
+
+    - name: Test in Docker
+      run: |
+        docker run --rm --interactive --volume $PWD:/config homeassistant/home-assistant:2022.5.5 hass --config /config --script check_config
